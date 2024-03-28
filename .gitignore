@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.sln
+*.vsconfig
+
+# Rider
+.idea/
+*.uproject.DotSettings.user
+
+# Misc
+.DS_Store/
+
+# Unreal Engine
+Binaries/*
+!Binaries/Win64
+Binaries/Win64/*
+
+## Build Data
+!Binaries/Win64/AnimationTestEditor.target
+!Binaries/Win64/UnrealEditor.modules
+!Binaries/Win64/UnrealEditor-AnimationTest.dll
+
+Build/
+DerivedDataCache/
+Intermediate/
+Platforms/
+Saved/
